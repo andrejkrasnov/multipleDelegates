@@ -15,6 +15,11 @@
 		4395CC2E254A7FBA00D49133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4395CC2C254A7FBA00D49133 /* LaunchScreen.storyboard */; };
 		4395CC39254A7FBB00D49133 /* multipleDelegatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4395CC38254A7FBB00D49133 /* multipleDelegatesTests.swift */; };
 		4395CC44254A7FBB00D49133 /* multipleDelegatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4395CC43254A7FBB00D49133 /* multipleDelegatesUITests.swift */; };
+		4395CC55254A7FF700D49133 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4395CC54254A7FF700D49133 /* Dice.swift */; };
+		4395CC5A254A80F600D49133 /* DiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4395CC59254A80F600D49133 /* DiceTest.swift */; };
+		4395CC5F254A81F800D49133 /* LinearCongruentialGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4395CC5E254A81F800D49133 /* LinearCongruentialGenerator.swift */; };
+		4395CC64254AB10800D49133 /* SnakesAndLadders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4395CC63254AB10800D49133 /* SnakesAndLadders.swift */; };
+		4395CC69254D974F00D49133 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4395CC68254D974F00D49133 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		4395CC3F254A7FBB00D49133 /* multipleDelegatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multipleDelegatesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4395CC43254A7FBB00D49133 /* multipleDelegatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipleDelegatesUITests.swift; sourceTree = "<group>"; };
 		4395CC45254A7FBB00D49133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4395CC54254A7FF700D49133 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		4395CC59254A80F600D49133 /* DiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceTest.swift; sourceTree = "<group>"; };
+		4395CC5E254A81F800D49133 /* LinearCongruentialGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearCongruentialGenerator.swift; sourceTree = "<group>"; };
+		4395CC63254AB10800D49133 /* SnakesAndLadders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakesAndLadders.swift; sourceTree = "<group>"; };
+		4395CC68254D974F00D49133 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,7 @@
 		4395CC15254A7FB600D49133 = {
 			isa = PBXGroup;
 			children = (
+				4395CC68254D974F00D49133 /* .gitignore */,
 				4395CC20254A7FB600D49133 /* multipleDelegates */,
 				4395CC37254A7FBB00D49133 /* multipleDelegatesTests */,
 				4395CC42254A7FBB00D49133 /* multipleDelegatesUITests */,
@@ -106,6 +117,9 @@
 				4395CC2A254A7FBA00D49133 /* Assets.xcassets */,
 				4395CC2C254A7FBA00D49133 /* LaunchScreen.storyboard */,
 				4395CC2F254A7FBA00D49133 /* Info.plist */,
+				4395CC54254A7FF700D49133 /* Dice.swift */,
+				4395CC5E254A81F800D49133 /* LinearCongruentialGenerator.swift */,
+				4395CC63254AB10800D49133 /* SnakesAndLadders.swift */,
 			);
 			path = multipleDelegates;
 			sourceTree = "<group>";
@@ -115,6 +129,7 @@
 			children = (
 				4395CC38254A7FBB00D49133 /* multipleDelegatesTests.swift */,
 				4395CC3A254A7FBB00D49133 /* Info.plist */,
+				4395CC59254A80F600D49133 /* DiceTest.swift */,
 			);
 			path = multipleDelegatesTests;
 			sourceTree = "<group>";
@@ -231,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4395CC69254D974F00D49133 /* .gitignore in Resources */,
 				4395CC2E254A7FBA00D49133 /* LaunchScreen.storyboard in Resources */,
 				4395CC2B254A7FBA00D49133 /* Assets.xcassets in Resources */,
 				4395CC29254A7FB600D49133 /* Main.storyboard in Resources */,
@@ -259,7 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4395CC26254A7FB600D49133 /* ViewController.swift in Sources */,
+				4395CC5F254A81F800D49133 /* LinearCongruentialGenerator.swift in Sources */,
+				4395CC64254AB10800D49133 /* SnakesAndLadders.swift in Sources */,
 				4395CC22254A7FB600D49133 /* AppDelegate.swift in Sources */,
+				4395CC55254A7FF700D49133 /* Dice.swift in Sources */,
 				4395CC24254A7FB600D49133 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4395CC5A254A80F600D49133 /* DiceTest.swift in Sources */,
 				4395CC39254A7FBB00D49133 /* multipleDelegatesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
